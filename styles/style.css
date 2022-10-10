@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "helvetica";
+    src: url("../fonts/Helvetica.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Acumin Pro";
+    src: url('../fonts/AcuminProMedium.otf') format("opentype");
+}  
+
+*{
+    box-sizing: border-box;
+}
+header,
+nav,
+nav li,
+#logo {
+    display: inline-block;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background-color: #F6F8F9;
+    z-index: 100;
+}
+
+nav li {
+    vertical-align: middle;
+}
+
+#logo {
+    font-family: "helvetica";
+    color: #FA6980;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 90px;
+    margin-top: 21px;
+}
+
+.nav-item a {
+    font-family: "helvetica";
+    color: #D7D8DA;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+
+.nav-item.active a {
+    color: #343638;
+    margin-right: 26px;
+}
+
+ul img {
+    margin-left: 19px;
+}
+
+#section1 {
+    padding-top: 50px;
+    background-color: #F6F8F9;
+
+}
+
+#h2-1 {
+    margin-left: 140px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-family: "helvetica";
+    font-size: 24px;
+    font-weight: bold;
+    color: #202124;
+}
+
+#main-container {
+    width: 1170px;
+    margin-left: 140px;
+    padding-bottom: 58px;
+}
+
+.child-container {
+    display: inline-block;
+    width: 360px;
+    vertical-align: middle;
+}
+
+.child-container:first-child,
+.child-container:nth-child(2) {
+    margin-right: 40px;
+}
+
+.image-container img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-container {
+    position: relative;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+
+.image-container p {
+    position: absolute;
+    z-index: 20;
+    left: 40px;
+    top: 28px;
+    font-family: "helvetica";
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.info-container {
+    height: 170px;
+    background-color: #ffffff;
+    padding: 66px 39px 0 40px;
+    color: #a6adb4;
+    font-family: "Acumin Pro";
+    font-size: 13px;
+    line-height: 19px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.info-container p {
+    margin-bottom: 10px;
+}
+
+.info-container span {
+    margin-left: 10px;
+    line-height: 16px;
+    font-family: "helvetica";
+}
+#h2-2 {
+    margin-left: 140px;
+    margin-bottom: 40px;
+    font-family: "helvetica";
+    font-size: 24px;
+    font-weight: bold;
+    color: #202124;
+}
+#section2 {
+    background-color: #F6F8F9;
+}
+
+#main-container2 {
+    width: 1170px;
+    margin-left: 140px;
+    padding-bottom: 234px;
+}
+
+#left-side {
+    display: inline-block;
+    vertical-align: top;
+    width: 760px;
+    margin-right: 40px;
+}
+#photo1, #photo2 {
+    width: 760px;
+    height: 430px;
+}
+#photo1 {
+    margin-bottom: 40px;
+    position: relative;
+}
+#photo1 p {
+    position: absolute;
+    top:  194px;
+    left: 308px;
+    color: white;
+    font-size: 16px;
+    font-family: "helvetica";
+    font-weight: bold;
+    z-index: 14;
+}
+#photo1 img, #photo2 img, #photo3 img, #photo4 img, #photo5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#right-side {
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+}
+#photo3, #photo4, #photo5 {
+    width: 360px;
+    height: 210px;
+}
+#photo3, #photo4 {
+    margin-bottom: 102px;
+}
